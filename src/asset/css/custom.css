@@ -32,15 +32,15 @@
     font-size: 22px;
 }
 
-.ecommerceIcon{
+.contractingIcon{
     height: 80px;
     width: 80px;
 }
-.designIcon{
+.finshingWorksIcon{
     height: 80px;
     width: 80px;
 }
-.webIcon{
+.trainingIcon{
     height: 80px;
     width: 80px;
 }
@@ -72,4 +72,21 @@
     font-family: 'Raleway',sans-serif;
     font-size: 15px;
     font-weight: 400;
+}
+
+.serviceMainTitle{
+    color: #051b35;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.bottomUnderline{
+    background-color: #051b35;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
 }
