@@ -1,11 +1,10 @@
-import React, { Component, Fragment } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "../../asset/css/custom.css";
-import "../../asset/css/bootstrap.min.css";
+import React, { Component, Fragment } from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import designIcon from '../../asset/image/design.png';
+import ecommerceIcon from '../../asset/image/ecommerce.png';
+import webIcon from '../../asset/image/web.png';
 
-import finshingWorksIcon from "../../asset/image/finshing-works.png";
-import contractingIcon from "../../asset/image/contracting.png";
-import trainingIcon from "../../asset/image/training.png";
+
 
 class Services extends Component {
   render() {
@@ -17,23 +16,23 @@ class Services extends Component {
           <Row>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
-                <img className="contractingIcon" src={contractingIcon} alt="contractingIcon"/>
-                <h2 className="serviceName">General contracting</h2>
-                <p className="serviceDescription">We deal with comprehensive implementation of investments, starting from the preparation of the investment process, through the implementation of the project, ending with obtaining a permit to use the completed facility</p>
+                <img className="ecommerceIcon" src={ecommerceIcon} alt="ecommerceIcon"/>
+                <h2 className="serviceName">E-commerce</h2>
+                <p className="serviceDescription">We will design and develop ecommerce online store website</p>
               </div>
             </Col>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
-                <img className="finshingWorksIcon" src={finshingWorksIcon} alt="finshingWorksIcon"/>
-                <h2 className="serviceName">Comprehensive finishing works</h2>
-                <p className="serviceDescription">Renovation services consisting in comprehensive finishing of premises and facilities based on the best technologies and materials that have been approved by the investor</p>
+                <img className="designIcon" src={designIcon} alt="designIcon"/>
+                <h2 className="serviceName">Web Design</h2>
+                <p className="serviceDescription">Qualified web design and attractive effects which catches visitor’s Eye</p>
               </div>
             </Col>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
-                <img className="trainingIcon" src={trainingIcon} alt="trainingIcon"/>
-                <h2 className="serviceName">Training sessions</h2>
-                <p className="serviceDescription">We organize trainings for people who want to learn in the field of construction work</p>
+                <img className="webIcon" src={webIcon} alt="webIcon"/>
+                <h2 className="serviceName">Web Development</h2>
+                <p className="serviceDescription">Clean and fresh issue free code to make your website dynamic perfectly</p>
               </div>
             </Col>
           </Row>
